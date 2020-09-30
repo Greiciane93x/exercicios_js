@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+
+    <script>
+        var num1; 
+        var nome = "Greiciane"; 
+
+        function pulaLinha(){
+            document.write("<br><hr>"); 
+
+        }
+        function retornaDobro (num1){
+            document.write("<big> Este cálculo representa o dobro: </big>"); 
+            pulaLinha(); 
+            document.write(num1 * 2); 
+            pulaLinha(); 
+
+        }
+        function retornaMetade (num1){
+            document.write("<big>Este cálculo representa a metade: </big>"); 
+            pulaLinha(); 
+            document.write(num1 / 2); 
+            pulaLinha(); 
+        }
+
+        function saudacao(nome){
+            document.write("<big> Olá " + nome + "! Tudo bem? </big>")
+        }
+        retornaDobro(7); 
+        retornaMetade(10); 
+        saudacao(nome); 
+
+
+    </script>
+</head>
+
+    
+<body>
+    
+</body>
+</html>

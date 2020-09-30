@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Funções</title>
+    <script>
+        //Declaração de variáveis de vidente 
+        var nome = "Greiciane"; 
+        var filhos = "Uma filha que se chama Alice"
+        var cidade = "Rio  Grande do Sul"; 
+        var profissao = "Gerente de T.I"; 
+        
+        //Declaração de variáveis de Ilha deserta
+        var item1 = "Café";  
+        var item2 = "Pasta de dentes"; 
+        var item3 = "Sabonete"
+
+        //
+        
+        function pulaLinha(){
+            document.write("<br><br>"); 
+        }
+        
+        function mostraVidente(){
+            document.write("<h1> A vidente</h1> ");
+           
+
+            document.write("A vidente prevê " + nome); 
+            pulaLinha(); 
+            document.write("Tem " + filhos);  
+            pulaLinha(); 
+            document.write("E viverá em " + cidade) ; 
+            pulaLinha(); 
+            document.write("Trabalhando como " + profissao); 
+          
+            
+        }
+        
+        function mostraIlhaDeserta(){
+            document.write("<h1> Ilha deserta </h1> ");
+            document.write("Eu levaria para ilha deserta: "); 
+            pulaLinha();
+            document.write(item1); 
+            pulaLinha(); 
+            document.write(item2); 
+            pulaLinha(); 
+            document.write(item3); 
+            pulaLinha(); 
+            
+            
+            
+        }
+
+        function escolhaAnimal(){
+            document.write("<h1> Escolha Animal </h1> ");
+            var animal = "Leoa"; 
+            document.write("Num primeiro momento, eu gostaria de ser um(a) " + animal + "."); 
+            pulaLinha(); 
+            animal = "Águia"; 
+            document.write("Pensando melhor, prefiro ser um(a)" + animal + "." ); 
+
+
+        }
+     
+        
+        
+        
+        
+        mostraVidente(); 
+        mostraIlhaDeserta(); 
+        escolhaAnimal(); 
+        
+        
+    </script>
+</head>
+<body> 
+    
+    
+    
+    
+    
+</body>
+</html>
